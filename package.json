@@ -1,0 +1,17 @@
+{
+  "name": "mongoose-breaking-change",
+  "version": "1.0.0",
+  "description": "Minimal reproduction example",
+  "scripts": {
+    "start": "tsc && node dist/main.js"
+  },
+  "author": "Matthias M. Köhler",
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.0",
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "mongoose": "^8.8.0"
+  }
+}
